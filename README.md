@@ -2,8 +2,8 @@
 This project is about extending BPjs with 2 new functions: 
 1. *block* 
 ```
-    // e is implicitly blocked in each bsync in the contained block.`
-       block(e).in( function () {`
+    // e is implicitly blocked in each bsync in the contained block.
+       block(e).in( function () {
           bp.sync({...});
           bp.sync({...});
        })
