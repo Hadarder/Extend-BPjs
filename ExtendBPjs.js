@@ -1,5 +1,3 @@
-bp.log.info('This is me :-)');
-
 //block the event eset in the given scope
 function block(eset) {
 	return {
